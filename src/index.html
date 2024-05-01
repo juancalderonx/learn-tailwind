@@ -5,30 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <title>Tailwind Neron</title>
 </head>
 
-<body class="bg-blue-400">
-    <form action="" class="bg-white w-80 mx-auto mt-8 rounded-lg p-6">
-        <input
-            class="border border-gray-300 w-full px-3 py-2 mb-4 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 invalid:focus:ring-red-500"
-            type="text" placeholder="Name">
+<body class="p-4">
+    <button
+        class="bg-orange-600 w-32 p-3 rounded-md relative after:content-[''] after:absolute after:left-32 after:border-8 after:border-transparent after:border-l-orange-600 after:top-4">Click
+        aquí</button>
 
-        <input
-            class="border border-gray-300 w-full px-3 py-2 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 invalid:focus:ring-red-500 peer"
-            type="email" placeholder="Email">
-        <p class="text-red-400 hidden peer-invalid:block">The email is incorrect</p>
+    <input class="border ml-2 placeholder:text-orange-600 placeholder:italic" type="text" placeholder="Name:">
 
-        <input
-            class="border border-gray-300 w-full px-3 py-2 mt-4 mb-4 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 invalid:focus:ring-red-500"
-            type="password" placeholder="Password">
+    <br><br>
 
-        <input class="border border-gray-300 w-full px-3 py-2 mb-4 rounded-md disabled:bg-red-200" disabled="text"
-            placeholder="Disabled property">
+    <input
+        class="file:bg-violet-100 file:border-0 file:rounded-lg file:text-violet-700 file:font-semibold px-3 hover:file:bg-violet-200 hover:file:cursor-pointer"
+        type="file">
 
-        <input
-            class="bg-blue-500 w-full py-2 text-white rounded-md cursor-pointer hover:bg-azul-oscuro transition duration-150"
-            type="submit" placeholder="Submit">
-    </form>
+    <br><br>
+
 </body>
 
 </html>
