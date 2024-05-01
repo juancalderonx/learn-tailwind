@@ -9,7 +9,12 @@ module.exports = {
       },
       width: {
         '42': '170px',
-      }
+      },
+      screens: {
+        'tablet': '640px',
+        'laptop': '1024px',
+        'desktop': '1280px',
+      },
     },
   },
   plugins: [],
